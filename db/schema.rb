@@ -47,7 +47,6 @@ ActiveRecord::Schema.define(version: 20131202205848) do
     t.string   "username"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "comment_id"
   end
 
 end
