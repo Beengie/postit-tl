@@ -16,3 +16,9 @@
 //= require_tree .
 //= require bootstrap
 
+// pure javascript way
+// $(document).ready(function() {
+//   $("a.vote_link").click(function(0 {
+//     $.ajax(type: 'post', url: 'some_url').done
+//   }))
+// })
