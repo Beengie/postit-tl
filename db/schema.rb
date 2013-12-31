@@ -49,6 +49,7 @@ ActiveRecord::Schema.define(version: 20131229044441) do
     t.string   "username"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "comment_id"
     t.string   "password_digest"
     t.string   "time_zone"
     t.integer  "phone"
